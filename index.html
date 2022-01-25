@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Control Work</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <div class="header-2" id="firstPlace">
+        <div class="header__content">
+            <div class="save-btn nav-0 btn" id="save-btn">
+                <i class="fas fa-code"></i>
+            </div>
+            <div class="font-style" id="font-style">
+                <div class="bold nav-1 btn" id="bold"><i class="fas fa-bold"></i></div>
+                <div class="italic nav-1 btn" id="italic"><i class="fas fa-italic"></i></div>
+                <div class="underline nav-1 btn" id="underline"><i class="fas fa-underline"></i></div>
+                <div class="stroke nav-1 btn" id="strike"><i class="fas fa-strikethrough"></i></div>
+            </div>
+            <div class="align-text">
+                <div class="align-left nav-2 btn" id="align-left"><i class="fas fa-align-left"></i></div>
+                <div class="align-center nav-2 btn" id="align-center"><i class="fas fa-align-justify"></i></div>
+                <div class="align-right nav-2 btn" id="align-right"><i class="fas fa-align-right"></i></div>
+            </div>
+            <div class="design">
+                <div class="font-family nav-3 btn" id="font-family"><i class="fas fa-font"></i>
+
+                </div>
+
+                <ul id="ff-list">
+                    <li>
+                        <div id="Arial" class="Arial div">Arial</div>
+                    </li>
+                    <li>
+                        <div id="Georgia" class="Georgia div">Georgia</div>
+                    </li>
+                    <li>
+                        <div id="Impact" class="Impact div">Impact</div>
+                    </li>
+                    <li>
+                        <div id="Tahoma" class="Tahoma div">Tahoma</div>
+                    </li>
+                    <li>
+                        <div id="TimesNewRoman" class="TimesNewRoman div">TimesNewRoman</div>
+                    </li>
+                    <li>
+                        <div id="Verdana" class="Verdana div">Verdana</div>
+                    </li>
+                </ul>
+                <div class="font-size nav-3 btn" id="font-size"><i class="fas fa-text-height"></i></div>
+
+                <ul id="fs-list">
+                    <li>
+                        <div id="12px" class="12px div">12px</div>
+                    </li>
+                    <li>
+                        <div id="14px" class="14px div">14px</div>
+                    </li>
+                    <li>
+                        <div id="16px" class="16px div">16px</div>
+                    </li>
+                    <li>
+                        <div id="18px" class="18px div">18px</div>
+                    </li>
+                    <li>
+                        <div id="20px" class="20px div">20px</div>
+                    </li>
+                    <li>
+                        <div id="22px" class="22px div">22px</div>
+                    </li>
+                    <li>
+                        <div id="25px" class="25px div">25px</div>
+                    </li>
+                    <li>
+                        <div id="30px" class="30px div">30px</div>
+                    </li>
+                </ul>
+                <div class="color-text nav-3 btn" id="color"><i class="fas fa-palette"></i></div>
+                <div class="background-color nav-3 btn" id="BgButton"><i class="fas fa-image"></i></div>
+            </div>
+            <div class="enter nav-4 btn"><i class="fas fa-lock"></i></div>
+        </div>
+
+
+
+
+    </div>
+
+    <div class="zone" id="zone"></div>
+
+    <div class="header-1" id="secondPlace">
+        <div id="headContMain" class="header__content-main">
+
+            <div>
+                <div class="save nav-1 btn" id="changes"><i class="fas fa-save"></i></div>
+
+                <div class="table nav-1 btn" id="tableButton"><i class="fas fa-table"></i></div>
+                <div class="list-ol nav-1 btn" id="olButton"><i class="fas fa-list-ol"></i></div>
+                <div class="list-ul nav-1 btn" id="ulButton"><i class="fas fa-list-ul"></i></div>
+                <div id="fff">
+                    <div id="createTable">
+                        <div id="header">
+                            <h3>Create table </h3> <b id="closeCreate" class="div">X</b>
+                        </div>
+                        <hr>
+                        <div id="cont1">
+                            <form name="tableList" id="tableList">
+                                <div id="left">
+                                    <p class="">Count TR:</p>
+                                    <p class=""><input class=" inp" type="text" id="countTR" placeholder="Type here..."></p>
+                                    <p class="">Width of TD:</p>
+                                    <p class=""><input class=" inp" type="text" id="widthTD" placeholder="Type here..."></p>
+                                    <p class="">Width of border:</p>
+                                    <p class=""><input class="inp" type="text" id="widthBorder" placeholder="Type here..."></p>
+                                </div>
+                                <div id="right">
+                                    <p class="">Count TD:</p>
+                                    <p class=""><input class=" inp" type="text" id="countTD" placeholder="Type here..."></p>
+                                    <p class="">Height of TD:</p>
+                                    <p class=""><input class=" inp" type="text" id="heightTD" placeholder="Type here..."></p>
+                                    <div id="rightStyle">
+                                        <p class="class2">Style of border:</p>
+                                        <select class="class2 class3" name="styleBorder" id="styleBorder" required>
+                                <option id="chooseStyle" value="choose style">chose style</option>
+                                <option value="dotted">dotted</option>
+                                <option value="dashed">dashed</option>
+                                <option value="solid">solid</option>
+                                <option value="double">double</option>
+                                <option value="groove">groove</option>
+                                <option value="ridge">ridge</option>
+                                <option value="inset">inset</option>
+                                <option value="outset">outset</option>
+                            </select>
+                                        <p class="class2">Color of border:</p>
+                                        <select class="class2 class3" name="colorBorder" id="colorBorder" required>
+                                <option id="chooseCol" value="choose color">choose color</option>
+                                <option value="black">black</option>
+                                <option value="red">red</option>
+                                <option value="green">green</option>
+                                <option value="blue">blue</option>
+                                <option value="yellow">yellow</option>
+                                <option value="white">white</option>
+                                <option value="grey">grey</option>
+                                <option value="pink">pink</option>
+                            </select>
+                                    </div>
+                                </div>
+                        </div>
+                        <div id="validation"></div>
+                        <div id="commandButtons">
+                            <p class=""><input type="button" class="class4" id="reset" value="Reset">
+                                <input type="button" class="class4" id="create" value="Create"></p>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+                <div id="OLfff">
+                    <div id="createOl">
+                        <div id="headerOl">
+                            <h3>Create Ol </h3> <b id="closeOl" class="div">X</b>
+                        </div>
+                        <hr>
+                        <div id="containerOl">
+                            <form name="olList" id="olList">
+                                <p>Count li item:</p>
+                                <p><input type="text" class="inp" name="countLi" id="countLi" placeholder="Type here..."></p>
+                                <p>Type mark of list:</p>
+                                <p><select name="typeMark" class="inp" id="typeMark">
+                                <option id="zero" value="choose Ol type mark" >choose Ol type mark</option>
+                                <option value="decimal">1</option>
+                                <option value="upper-roman">I</option>
+                                <option value="lower-roman">i</option>
+                                <option value="upper-alpha">A</option>
+                                <option value="lower-alpha">a</option>
+                            </select></p>
+                                <div id="validationOl"></div>
+                                <p><input type="button" class="class4" id="resetOl" value="Reset">
+                                    <input type="button" class="class4" id="createList" value="Create list"></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="ULfff">
+                    <div id="createUl">
+                        <div id="headerUl">
+                            <h3>Create Ul </h3> <b id="closeUl" class="div">X</b>
+                        </div>
+                        <hr>
+                        <div id="containerUl">
+                            <form name="ulList" id="ulList">
+                                <p>Count li item:</p>
+                                <p><input type="text" class="inp" name="countLiUl" id="countLiUl" placeholder="Type here..."></p>
+                                <p>Type mark of list:</p>
+                                <p><select name="typeMark" class="inp" id="typeMarkUl">
+                                <option id="zero2" value="choose Ul type mark" >choose Ul type mark</option>
+                                <option value="circle">circle</option>
+                                <option value="disc">disc</option>
+                                <option value="square">square</option>
+
+                            </select></p>
+                                <div id="validationUl"></div>
+                                <p><input type="button" class="class4" id="resetUl" value="Reset">
+                                    <input type="button" class="class4" id="createUlList" value="Create list"></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <textarea style="width:100%; height:100vh" id="text-edit">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur!</p>
+        </textarea>
+    </div>
+
+
+    <div class="popup-container" id="popup-container">
+        <div class="text-color-popup">
+            <div class="popup-header">
+                <h2>Choose text Color</h2>
+                <div id="close-popup"> <b>X</b> </div>
+            </div>
+            <hr>
+
+            <div class="squares" id="squares">
+                <div class="square red"></div>
+                <div class="square blue"></div>
+                <div class="square orange"></div>
+                <div class="square green"></div>
+                <div class="square yellow"></div>
+                <div class="square brown"></div>
+                <div class="square grey"></div>
+
+                <div class="square darkblue"></div>
+                <div class="square black"></div>
+                <div class="square darkcyan"></div>
+                <div class="square greenyellow"></div>
+                <div class="square mediumblue"></div>
+                <div class="square olivedrab"></div>
+                <div class="square purple"></div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <div class="popup-container" id="popup-containerBG">
+        <div class="text-color-popup">
+            <div class="popup-header">
+                <h2>Choose background color or image</h2>
+
+
+                <div id="close-popupBG"> <b class="div">X</b> </div>
+            </div>
+            <hr>
+            <div id="buttonsBackg">
+                <div id="colors" class="buttonsBGR">Colors</div>
+                <div id="images" class="buttonsBGR">Images</div>
+                <div id="chose" class="buttonsBGR">Files</div>
+            </div>
+            <hr>
+            <div class="squares" id="squaresBG">
+                <div class="square BG red"></div>
+                <div class="square BG blue"></div>
+                <div class="square BG orange"></div>
+                <div class="square BG green"></div>
+                <div class="square BG yellow"></div>
+                <div class="square BG brown"></div>
+                <div class="square BG grey"></div>
+
+                <div class="square BG darkblue"></div>
+                <div class="square BG black"></div>
+                <div class="square BG darkcyan"></div>
+                <div class="square BG greenyellow"></div>
+                <div class="square BG mediumblue"></div>
+                <div class="square BG olivedrab"></div>
+                <div class="square BG purple"></div>
+            </div>
+            <div class="squares" id="imgBg">
+                <div id="i1" class="img"></div>
+                <div id="i2" class="img"></div>
+                <div id="i3" class="img"></div>
+                <div id="i4" class="img"></div>
+                <div id="i5" class="img"></div>
+                <div id="i6" class="img"></div>
+                <div id="i7" class="img"></div>
+                <div id="i8" class="img"></div>
+                <div id="i9" class="img"></div>
+            </div>
+            <div class="squares" id="choseFile">
+                <input type="file" id="chosen" autocomplete="off" name="background-image" accept="image/*" />
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
